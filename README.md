@@ -37,7 +37,9 @@ ALTER USER "user" WITH SUPERUSER
 ![RDS](https://user-images.githubusercontent.com/78814110/127932610-ddea9446-5208-4cd7-9f0f-c07a13399a17.jpg)
 
 * Through Putty, configure so that the postgres connection through port 5432 is directed to our endpoint created in RDS.
+* 
 ![endpoint](https://user-images.githubusercontent.com/78814110/127932709-af8f5992-0123-4694-969c-eba81ffae8d1.jpg)
+
 Don't make your endpoint key available, here it is for a demo.
 
 * For migration use EC2 backup via pg_dump
